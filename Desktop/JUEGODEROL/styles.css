@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative|Rufina');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+	background-color: black;
+}
+
+#titulo{
+	text-align: center;
+	font-family: 'Cinzel Decorative', cursive;
+ 	font-size: 40px;
+	color:rgb(218, 190, 130);
+	margin: 2rem;
+}
+
+
+.driuda {
+	width: 140px;
+	height: 240px;
+
+}
+#cartas {
+	display: inline-block;
+	width: 250px;
+	height: 350px;
+	background: linear-gradient(
+          
+          rgb(174, 166, 122),
+          rgba(148, 143, 68, 0.1)
+      ),
+	   url("fondo.jpg");
+    border-radius: 15px;
+	text-align: center;
+	margin-left: 10rem;
+	margin-top: 10rem;
+	border: #522a0c solid 7px;
+}
+
+.guerrero {
+	width: 190px;
+	height: 210px;
+	margin-top: 2rem;
+	}
+	#carta2 {
+	display: inline-block;
+	width: 250px;
+	height: 350px;
+	background: linear-gradient(
+          
+          rgb(174, 166, 122),
+          rgba(148, 143, 68, 0.1)
+      ),
+	   url("fondo.jpg");
+	border-radius: 15px;
+	border: rgb(82, 42, 12) solid 7px;
+	float: left;
+	
+	margin-top: 10rem;
+	margin-left: 26%;
+}
+#nombre  {
+	font-family: 'Rufina', serif;
+ 	font-size: 18px;
+ 	color:rgb(40, 34, 34);
+}
+
+#nombre2 {
+	font-family: 'Rufina', serif;
+	font-size: 18px;
+	text-align: center;
+	
+	color:rgb(40, 34, 34);
+   }
+.resultado{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:rgb(124, 19, 19);
+    padding-left: 22%;
+
+}
+.resultado2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:rgb(124, 19, 19);
+    
+
+}
+#ataca {
+
+	width: 100px;
+	height: 25px;
+	border-radius: 15px;
+	background-color:  rgb(57, 3, 8);
+	color: aliceblue;
+}
+
+#ataca2 {
+
+	width: 100px;
+	height: 25px;
+	border-radius: 15px;
+	background-color:  rgb(57, 3, 8);
+	color: aliceblue;
+	margin-top: 1rem;
+	margin-left: 25%;
+    
+}
